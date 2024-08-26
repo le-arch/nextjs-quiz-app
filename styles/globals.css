@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* styles/globals.css */
+:root {
+  --bg-color: #ffffff;
+  --text-color: #000000;
+}
+
+[data-theme='dark'] {
+  --bg-color: #1a1a1a;
+  --text-color: #ffffff;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+/* styles/globals.css (or your preferred global CSS file) */
+.score-container {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.score-container span {
+  display: inline-block;
+}
